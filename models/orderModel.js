@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//collection schema
 const orderSchema= new mongoose.Schema({
     cardItems:Array,
     amount:String,
